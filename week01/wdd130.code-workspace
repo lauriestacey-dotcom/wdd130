@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"html.format.enable": true,
+		"css.format.enable": true,
+		"git.confirmSync": false,
+		"explorer.fileNesting.expand": false,
+		"explorer.compactFolders": false,
+		"explorer.decorations.colors": false,
+		"explorer.decorations.badges": false,
+		"explorer.openEditors.minVisible": 0,
+		"explorer.autoOpenDroppedFile": false,
+		"workbench.tree.indent": 25,
+		"liveServer.settings.port": 5504,
+		"chat.agent.enabled": false,
+		"chat.disableAIFeatures": false,
+		"terminal.integrated.initialHint": false,
+		"editor.wordWrap": "on",
+		"workbench.colorTheme": "Light Modern",
+		"liveServer.settings.multiRootWorkspaceName": "wdd130",
+		"python.terminal.executeInFileDir": true
+	}
+}
