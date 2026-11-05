@@ -1,0 +1,20 @@
+body {font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+main {
+    width: 400px;
+    margin: 0 auto;
+
+}
+h1 {font-size: 2rem; margin: 10 px; text-align: center;}
+    img {width: 100%; height: auto; box-shadow: 0 0 30px, 
