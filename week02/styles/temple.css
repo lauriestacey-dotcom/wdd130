@@ -1,20 +1,55 @@
-body {font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+* {
     margin: 0;
     padding: 0;
 }
 
-header {background-color: #333;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header,
+footer {
+    background-color: #333;
     color: #fff;
     padding: 10px;
     text-align: center;
     font-size: 1.5rem;
-
 }
+
 main {
     width: 400px;
     margin: 0 auto;
-
 }
-h1 {font-size: 2rem; margin: 10 px; text-align: center;}
-    img {width: 100%; height: auto; box-shadow: 0 0 30px, 
+
+h1 {
+    font-size: 2rem;
+    margin: 10 px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 1px solid #222;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: #aaa;
+    font-size: .9rem;
+}
+
+section p {
+    margin: 10px;
+}
+
+ul {
+    margin: 10px 20px 0;
+}
