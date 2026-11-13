@@ -1,97 +1,96 @@
-    /*Commit and sync/push your work to your wdd130 GitHub Pages enabled repository. Share your work with others in the Week 03 Forum channel in Microsoft Teams.*/
-    :root {
-        --primary-color: #3498db;
-        --secondary-color: #2ecc71;
-        --font-size-large: 24px;
-        --margin-standard: 16px;
-    }
+:root {
+    --primary-color: #6034db;
+    --secondary-color: #b9e379;
+    --font-size-large: 24px;
+    --margin-standard: 16px;
+}
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-    body {
-        font-size: 16px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
-    }
+body {
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Arial, Helvetica, sans-serif;
+}
 
-    nav {
-        background-color: darkblue;
-        padding: 10px;
-    }
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
 
-    nav a {
-        color: white;
-        display: block;
-        padding: 20px;
-    }
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 
-    h1 {
-        color: darkblue;
-    }
+h1 {
+    color: darkblue;
+}
 
-    main {
-        max-width: 840px;
-    }
+main {
+    max-width: 840px;
+}
 
-    main img {
-        width: 150px;
-        height: auto;
-        border: 1px solid black;
-        padding: 2px;
-        box-shadow: 0 0 30px gray;
-        float: right;
-    }
+main img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+    float: right;
+}
 
-    p {
-        padding: 0px;
-    }
+p {
+    padding: 0px;
+}
 
-    aside {
-        width: 20rem;
-        text-align: center;
-    }
+aside {
+    width: 20rem;
+    text-align: center;
+}
 
-    aside img {
-        width: 200px;
-        height: auto;
-    }
+aside img {
+    width: 200px;
+    height: auto;
+}
 
-    aside h2 {
-        position: absolute;
-        top: 45px;
-        left: 1px;
-    }
+aside h2 {
+    position: absolute;
+    top: 45px;
+    left: 1px;
+}
 
-    footer {
-        margin-top: 15px;
-        border-top: 1px solid #000;
-        text-align: center;
-    }
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
 
-    /* "Class Selectors" */
-    .box {
-        margin: 1rem;
-        border: 1px solid rgb(0 0 0 / 10%);
-        padding: 1rem;
-        background-color: #92b6ab57;
-        color: rgb(15, 4, 139);
-    }
+/* "Class Selectors" */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #6a9c8989;
+    color: rgb(15, 4, 139);
+}
 
-    .indent {
-        padding-left: 2rem;
-    }
+.indent {
+    padding-left: 2rem;
+}
 
-    .header {
-        background-color: var(--primary-color);
-        font-size: var(--font-size-large);
-        margin: var(--margin-standard)
-    }
+.header {
+    background-color: var(--primary-color);
+    font-size: var(--font-size-large);
+    margin: var(--margin-standard)
+}
 
-    .button {
-        background-color: var(--secondary-color);
-        padding: var(--margin-standard);
-        color: var(--text-color, white);
-    }
+.button {
+    background-color: var(--secondary-color);
+    padding: var(--margin-standard);
+    color: var(--text-color, white);
+}
