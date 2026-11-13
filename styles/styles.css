@@ -1,3 +1,11 @@
+    /*Commit and sync/push your work to your wdd130 GitHub Pages enabled repository. Share your work with others in the Week 03 Forum channel in Microsoft Teams.*/
+    :root {
+        --primary-color: #3498db;
+        --secondary-color: #2ecc71;
+        --font-size-large: 24px;
+        --margin-standard: 16px;
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -74,4 +82,16 @@
 
     .indent {
         padding-left: 2rem;
+    }
+
+    .header {
+        background-color: var(--primary-color);
+        font-size: var(--font-size-large);
+        margin: var(--margin-standard)
+    }
+
+    .button {
+        background-color: var(--secondary-color);
+        padding: var(--margin-standard);
+        color: var(--text-color, white);
     }
