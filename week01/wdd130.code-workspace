@@ -25,6 +25,9 @@
 		"editor.wordWrap": "on",
 		"workbench.colorTheme": "Light Modern",
 		"liveServer.settings.multiRootWorkspaceName": "wdd130",
-		"python.terminal.executeInFileDir": true
+		"python.terminal.executeInFileDir": true,
+		"cSpell.words": [
+			"socialmedia"
+		]
 	}
 }
