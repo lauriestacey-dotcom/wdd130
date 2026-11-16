@@ -1,15 +1,9 @@
 :root {
-    --primary-color: #77b7c6;
-    --secondary-color: #b8bd6e;
-    --accent1-color: #a4ada6;
-    --accent2-color: #deecf3;
-    --heading-font: "Montserrat", "sans-serif";
-    --body-font: Arial, Helvetica, sans-serif;
-}
-
-header {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
+    --primary-color: #067fdb;
+    --secondary-color: #029622;
+    --accent1-color: #3d3b3b;
+    --accent2-color: #f6f6f9;
+    --heading-font: "Montserrat, sans-serif;"
 }
 
 * {
@@ -30,11 +24,12 @@ footer {
     margin: 0 auto;
 }
 
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: var(--secondary-color)
+header a {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
+h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -44,7 +39,6 @@ nav,
 p,
 section,
 article {
-    position: absolute;
     margin: 16px;
     padding: 8px;
 }
@@ -71,21 +65,33 @@ h1 {
 }
 
 .hero article {
-    position: absolute
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 25px;
+    background-color: rgba(255, 255, 255, 0.85);
 }
 
 .hero article img {
     float: right;
-    width: 125px;
+    width: 150px;
+    height: auto;
+    border: 1px solid gray;
+    padding: 2px;
+    box-shadow: 0 0 30 px black;
 }
 
-.montserrat-body {
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+img {
+    width: 130px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
 }
 
-.socialmedia a {
-    text-decoration: none;
+.socialmedia img {
+    width: 32px;
+    height: auto;
+    border: none;
+    padding: 0;
+    margin: 0 5px;
 }

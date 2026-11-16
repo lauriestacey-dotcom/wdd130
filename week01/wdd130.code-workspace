@@ -28,6 +28,10 @@
 		"python.terminal.executeInFileDir": true,
 		"cSpell.words": [
 			"socialmedia"
+		],
+		"terminal.sourceControlRepositoriesKind": "both",
+		"terminal.integrated.commandsToSkipShell": [
+			"source control"
 		]
 	}
 }
