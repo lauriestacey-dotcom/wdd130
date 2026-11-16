@@ -3,7 +3,8 @@
     --secondary-color: #029622;
     --accent1-color: #3d3b3b;
     --accent2-color: #f6f6f9;
-    --heading-font: "Montserrat, sans-serif;"
+    --heading-font: "Montserrat", sans-serif;
+    --body-font: "Roboto", sans-serif;
 }
 
 * {
@@ -22,6 +23,13 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+}
+
+header img {
+    width: 130px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
 }
 
 header a {
@@ -81,11 +89,8 @@ h1 {
     box-shadow: 0 0 30px black;
 }
 
-img {
-    width: 130px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
+.socialmedia a {
+    text-decoration: none;
 }
 
 .socialmedia img {
