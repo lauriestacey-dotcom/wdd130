@@ -4,7 +4,7 @@
     --accent1-color: #3d3b3b;
     --accent2-color: #f6f6f9;
     --heading-font: "Montserrat", sans-serif;
-    --body-font: "Roboto", sans-serif;
+    --body-font: "Roboto", serif;
 }
 
 * {
@@ -21,6 +21,8 @@ body {
 header,
 main,
 footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     width: 840px;
     margin: 0 auto;
     text-decoration: none;
@@ -36,12 +38,6 @@ header img {
 header a {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-}
-
-h1,
-h2 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
 }
 
 nav,
