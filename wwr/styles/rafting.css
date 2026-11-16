@@ -23,6 +23,7 @@ main,
 footer {
     width: 840px;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 header img {
@@ -49,6 +50,7 @@ section,
 article {
     margin: 16px;
     padding: 8px;
+    text-decoration: none;
 }
 
 .hero {
