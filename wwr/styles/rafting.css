@@ -36,6 +36,9 @@ header img {
 }
 
 header a {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     text-decoration: none
@@ -52,6 +55,7 @@ article {
 
 h1,
 h2 {
+    display: grid;
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
@@ -67,6 +71,7 @@ h2 {
 }
 
 h1 {
+    display: flex;
     position: absolute;
     top: 20px;
     width: 100%;

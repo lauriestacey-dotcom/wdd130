@@ -1,28 +1,21 @@
-    header border: 1 px solid steel blue;
-    padding: 2px;
-    box-shadow: 0 0 30px gray;
+.flex-container {
+    border: 3px dashed darkcyan;
+    background-color: lightyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
 
-    p {
-        padding: 0;
-    }
+flex-item {
+    width: 250px;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 0.5rem;
+    background-color: #bbb;
+    color: #333;
+}
 
-    aside {
-        width: 20em;
-        margin: 1em;
-        border: 1px solid rgba(0 0 0 0.2);
-        padding: 1em;
-        background-color: #eee;
-        color: #333;
-        text-align: center;
-    }
-
-    aside img {
-        width: 200px;
-        height: auto;
-    }
-
-    footer {
-        margin-top: 1em;
-        border-top: 1px solid #000;
-        text-align: center;
-    }
+.item1 {
+    min-height: 100px;
+}
