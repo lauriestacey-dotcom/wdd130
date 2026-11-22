@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Us - Whitewater Rafting Adventure Co.</title>
     <meta name="description"
-      content="This is the about us page for Whitewater Rafting Adventure Co.">
+      content="An experienced team of professional whitewater rafting guides and enthusiasts offering river raft adventures, scenic views, and vacation outdoor activity ideas.">
     <meta name="author" content="Laurie Stacey">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -14,117 +13,67 @@
 <body>
     <header>
         <img src="images/rafting.jpg" alt="Company Logo">
-        <nav>
-            <ul class="navigation">
-                <li><a href="#" index.html">Home</a></li>
-                <li><a href="#""about.html">About Us</a></li>
-                <li><a href="#""trips.html">Trips</a></li>
-                <li><a href="#""contact.html">Contact Us</a></li>
-                <img></img>
-                <div></div>
-        </nav>
-        </p>
-        <p>These elements are grid items since their parent is a grid container and so these
-            elements
-            participate in
-            the grid layout.</p>
-        <p>The header uses the following CSS declarations to create the grid layout:
-        <pre><code>display: grid;
-                         grid-template-columns: 120px 1fr 1fr;
-                         align-items: center;</code></pre>
-        </p>
-        <p>As a result, the header is divided into three areas: a logo area, a title area, and a
-            navigation area
-            that are side by side.</p>
-
-        <ul>
-            <li><code>display</code> makes the header a grid</li>
-            <li><code>grid-template-columns</code> defines that there are three columns, the
-                first one
-                at a fixed
-                size of 120px and the rest sharing equally the rest of the space</li>
-            <li><code>align-items</code> aligns the grid items to the middle of the header (the
-                grid)
-            </li>
-        </ul>
-
-        </ul>
+        <nav class="navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-        <h1>Whitewater Rafting Adventure Company
-        </h1>
-        <section>
+        <div class="hero">
+            <img src="images/favorite-river.jpg" alt="Scenic view of river and mountains" >
+            <h1>Whitewater Rafting Adventure Company</h1>
+            <article>
+                 <img src="images/happy-rafters.jpg" alt="Happy rafters on the river">
+                <p>Imagine riding through towering canyon walls, racing past hidden waterfalls, and tackling nonstop rapids! From beginning to end, our expert guides make every mile on the water an epic experience! So if you've been thinking about trying something new and exciting, look no further than Whitewater Rafting Adventure Company!
+                </p>
+            </article>
+        </div>
+        <section class="history">
             <h2>History</h2>
+            <div class="history-content">
+                <p>Longtime friends Wade Waters and River Banks founded Whitewater Rafting Adventure Company out of a shared love for the outdoors. With over 20 years of experience navigating the Colorado River together, Wade and River have guided thousands of guests through its legendary rapids—building a company known for safety, local expertise, and genuine hospitality.
+                </p>
+                <img src="images/rafters-on-river.jpg" alt="Happy group of rafters on the river">
+                <p>From scenic family floats to high-adrenaline canyon runs, we offer packages tailored to every budget and skill level. Gather your friends and family, pick your pace, and let our team handle all the gear and logistics so you can simply show up and enjoy the ride!</p>
+            </div>
         </section>
-
-        <section>
-            <h2>&lt;nav&gt;: CSS Flexbox</h2>
-            <p>This navigation is an example of a CSS Flexbox layout. It uses the
-                <code>display: flex;</code> property
-                to
-                create a flexible layout.
-            </p>
-            <p>The nav has one child element: <code>&lt;ul&gt;</code> which has to be the Flex
-                container
-                because its
-                child elements (the list items) need to work together as flex items.</p>
-            <p>The <code>ul</code> with the class of <code>navigation</code> uses the following CSS
-                declarations to
-                create the flex layout:
-            <pre><code>display: flex;
-         list-style: none;</code></pre>
-            </p>
-            <p>As a result, the nav items are evenly distributed within the nav area.</p>
-            <ul>
-                <li><code>display</code> makes the nav a flex container</li>
-                <li><code>list-style</code> removes the default list styling</li>
-            </ul>
-
-            <p>The <code>li</code> (list items) <code>flex</code> property is used on the list items
-                to
-                control their
-                size and how they grow or shrink within the nav.</p>
-            <pre><code>flex: 1 1 auto;</code></pre>
-        </section>
-    </main>
-
-    <div class="hero">
-        <img src="images/whitewater-adventure.jpg" alt="Rafters riding rapids">
-        <h1>Whitewater Rafting Adventure Company
-        </h1>
-        <article>
-            <img src="images/happy-group.jpg" alt="Clients riding rapids">
-            <p>Your search for the ultimate thrill ends here. Carve through towering canyon
-                walls, race past hidden waterfalls, and conquer nonstop rapids on the Euphoria
-                River. When life gives you water, we say ride it!
-            </p>
-        </article>
-    </div>
-    <section>
-        <h2>History</h2>
-        <p>Founded by longtime friends and outdoor enthusiasts Wade Waters and River Banks,
-            Whitewater Rafting Adventure Company grew out of a shared love for exploring the
-            river
-            every weekend.
-            Today, our close-knit
-            crew of experienced, safety-first guides is dedicated to sharing that adventure with
-            you.</p>
-    </section>
-    <section>
+    <section class="adventures">
         <h2>Adventure Awaits You!</h2>
-        <!--add rafting images or other content here-->
+            <div class="adventure-gallery">
+            <figure>
+            <img src="images/happy-group.jpg" alt="Groups of rafters on the river">
+            <figcaption>Camping and Rafting Adventure</figcaption>
+        </figure>
+        <figure>
+            <img src="images/group-going-over-waterfall.jpg" alt="Group of rafters working together to navigate the rapids">
+            <figcaption>Narrow Escape Adventure</figcaption>
+        </figure>
+        <figure>
+            <img src="images/peek-a-boo-view.jpg" alt="Scenic rafting adventure">
+            <figcaption>Churning Rapids Adventure</figcaption>
+        </figure>
+        <figure>
+            <img src="images/hold-tight-rapids.jpg" alt="Rafters holding on tight in the rapids">
+            <figcaption>Rollercoaster Ridge Adventure</figcaption>
+        </figure>
+        <figure>
+            <img src="images/riding-in-raft.jpg" alt="Team of rafters navigating the rapids">
+            <figcaption>Swirling River Adventure</figcaption>
+        </figure>
     </section>
+</div>
     </main>
-
-    <footer>
-        <p>&copy;2026 Whitewater Rafting Adventure Co. Laurie Stacey</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com"><img src="images/facebook.svg" alt="Facebook"></a>
-            <a href="https://linkedin.com"><img src="images/linkedin-bw.svg" alt="LinkedIn"></a>
-            <a href="https://instagram.com"><img src="images/instagram-bw.svg" alt="Instagram"></a>
+     <footer>
+        <p>&copy;2026  Whitewater Rafting Adventure Company  |  Laurie Stacey  |  All Rights Reserved</p>
+        <nav class="social-media">
+            <a href="https://facebook.com"><img src="images/facebook-logo.png" alt="Facebook"></a>
+            <a href="https://linkedin.com"><img src="images/linked-in-logo.png" alt="LinkedIn"></a>
+            <a href="https://instagram.com"><img src="images/instagram-logo1.png" alt="Instagram"></a>
         </nav>
+    
     </footer>
-</body>
-
+</body
 </html>

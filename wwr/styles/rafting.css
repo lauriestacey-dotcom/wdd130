@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #143642;
-    --secondary-color: #0f8b8d;
-    --accent1-color: #ec9a29;
-    --accent2-color: #f4f7f5;
+    --primary-color: #1b4332;
+    --secondary-color: #779404;
+    --accent1-color: #e9e9c9;
+    --accent2-color: #f8f9fa;
     --heading-font: "Helvetica", sans-serif;
     --body-font: "Garamond", sans-serif;
 }
@@ -15,49 +15,48 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    color: #111;
 }
 
 header,
 main,
 footer {
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    width: 840px;
+    max-width: 960px;
     margin: 0 auto;
-    text-decoration: none;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
 }
 
 header img {
-    width: 130px;
+    width: 100px;
     height: auto;
-    border: 2px solid var(--secondary-color);
-    padding: 2px;
 }
 
-header a {
-    display: grid;
-    grid-template-columns: 120px 1fr 1fr;
-    align-items: center;
-    background-color: var(--primary-color);
-    color: var(--accent1-color);
-    text-decoration: none
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+.navigation a {
+    display: block;
+    padding: 0.75rem 1rem;
     text-decoration: none;
+    font-weight: bold;
+    color: var(--accent2-color);
 }
 
-h1,
-h2 {
-    display: grid;
-    font-family: var(--heading-font);
-    color: var(--accent1-color);
+.navigation a:hover {
+    text-decoration: underline;
 }
 
 .hero {
@@ -71,16 +70,20 @@ h2 {
 }
 
 h1 {
-    display: flex;
     position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
     border: 2px solid var(--secondary-color);
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.85;
     background-color: var(--accent1-color);
     color: #080808;
+    font-family: var(--heading-font);
+}
+
+h2 {
+    font-family: var(--heading-font);
 }
 
 .hero article {
@@ -88,8 +91,9 @@ h1 {
     bottom: 25px;
     left: 25px;
     right: 25px;
-    margin: 0;
-    background-color: #ec9b29e7;
+    padding: 1rem;
+    background-color: #f5ba18e7;
+    color: #080808;
 }
 
 .hero article img {
@@ -98,17 +102,83 @@ h1 {
     height: auto;
     border: 1px solid gray;
     padding: 2px;
+    margin-left: 1rem;
     box-shadow: 0 0 30px rgb(116, 114, 114);
 }
 
-.socialmedia a {
+.history {
+    padding: 2rem 1rem;
+}
+
+.history h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.history-content {
+    display: grid;
+    grid-template-columns: 1fr 250px 1fr;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.history-content img {
+    width: 100%;
+    height: auto;
+}
+
+.adventures {
+    padding: 2rem 1rem;
+}
+
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.adventure-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.adventure-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.adventure-gallery img {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+}
+
+.adventure-gallery figcaption {
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding: 1.5rem 2rem;
+    background-color: #1f2933;    
+    color: var(--accent2-color);
+    border-top: 4px solid var(--secondary-color);
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media a {
     text-decoration: none;
 }
 
-.socialmedia img {
-    width: 32px;
+.social-media img {
+    width: 30px;
     height: auto;
-    border: none;
-    padding: 0;
-    margin: 0 5px;
 }
