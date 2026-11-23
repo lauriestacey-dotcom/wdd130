@@ -103,10 +103,10 @@ h2 {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid gray;
+    border: 1px #808080 solid;
     padding: 2px;
     margin-left: 1rem;
-    box-shadow: 0 0 30px rgb(116, 114, 114);
+    box-shadow: #747272 0 0 10px;
 }
 
 .history {
