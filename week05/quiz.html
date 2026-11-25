@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz</title>
+    <meta name="description"
+      content="Week05 online quiz about HTML and CSS with 4 or more questions about these concepts.">
+    <meta name="author" content="Laurie Stacey">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+    </header>
+    <main>
+        <form>
+            <div class="form item">
+                <label for="q1"><span class="question text">1.</span>What does HTML stand for?</span></label>
+            </div>
+        </form>
+        <section class="quiz">
+            <h2>HTML and CSS Quiz</h2>
+            <form action="submit-quiz.php" method="post">
+                <fieldset>
+                    <legend>Question 1: What does HTML stand for?</legend>
+                    <label><input type="radio" name="q1" value="a"> Hyper Text Markup Language</label><br>
+                    <label><input type="radio" name="q1" value="b"> Home Tool Mechanical Language</label><br>
+                    <label><input type="radio" name="q1" value="c"> High Tech Modern Language</label><br>
+                    <label><input type="radio" name="q1" value="d"> Hyperlink Text Markup Language</label><br>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
