@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Exercise</title>
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+<table>
+    <thead>
+        <tr>
+            <th>League</th>
+            <th>Team</th>
+            <th>Record</th>
+            <th>Player Count</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+    <th rowspan="2">Southern</th>
+        <td>Parana</td>
+        <td>52-19</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>Catarina</td>
+        <td>49-24</td>
+        <td>10</td>
+        </tr>
+    </tr>
+    <tr>
+        <th rowspan="3">Western</th>
+        <td>Lacerda</td>
+        <td>92-70</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>Acre</td>
+        <td>10-7</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>Rondonia</td>
+        <td>10-7</td>
+        <td>12</td>
+    </tr>
+    </tbody>
+        <tfoot>
+            <tr>
+        <th colspan="3">Total Players</th>
+        <td>92</td>
+    </tr>
+        </tfoot>
+</table>
+</body>
+
+</html>
+
+<!--Why use rowspan on the first cell of the first data row? How do you determine how many rows to span?
+If you have a border-collapse property applied to your table, how does it affect the spacing and borders of the table cells? Try experimenting by turning it off and on.
+In the CSS, what does the selector thead tr, tfoot tr target?
+Experiment with different CSS properties to enhance the visual appeal of your table, such as hover effects, alternating row colors, or custom fonts.
+Add a <caption> to your table that describes its content.>
